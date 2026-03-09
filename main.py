@@ -18,8 +18,8 @@ while(True):
         print("1: v0+at=vf\n 2: x=v0t+0.5at^2 \n 3: vf^2-vi^2=2ax")
         number = int(input("\n Please input the desired equation:"))
         if(number==1):
-            vi=int(input("put your vi"))
-            vf=int(input("put your vf"))
-            t=int(input("put your t"))
-            print(" The acceleration is: " +(vf-vi)/t)
-
+            vi=int(input("put your vi: "))
+            vf=int(input("put your vf: "))
+            t=int(input("put your t: "))
+            print(" The acceleration is: " +str((vf-vi)/t))
+            print("\n\n\n")
